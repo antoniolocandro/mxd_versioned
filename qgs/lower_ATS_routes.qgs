@@ -36,7 +36,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Checked" name="airspaces">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="airspaces">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="fir_area20150319140751636" name="fir_area">
         <customproperties/>
@@ -83,10 +83,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-9678280.44693476520478725</xmin>
-      <ymin>1769022.96489073475822806</ymin>
-      <xmax>-9659268.45666939578950405</xmax>
-      <ymax>1780704.31906931707635522</ymax>
+      <xmin>-9726451.01375921443104744</xmin>
+      <ymin>1542209.64565409300848842</ymin>
+      <xmax>-9683012.41431127116084099</xmax>
+      <ymax>1604489.25222373986616731</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -208,7 +208,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Checked" name="airspaces">
+    <legendgroup open="true" checked="Qt::Checked" name="airspaces">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="fir_area" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="fir_area20150319140751636" visible="1"/>
@@ -4633,7 +4633,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">postgres</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "obstaclename", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
