@@ -75,18 +75,15 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20150408142933137" name="OpenStreetMap">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150408142517366" name="Google Satellite">
-      <customproperties/>
-    </layer-tree-layer>
   </layer-tree-group>
   <relations/>
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-9726451.01375921443104744</xmin>
-      <ymin>1542209.64565409300848842</ymin>
-      <xmax>-9683012.41431127116084099</xmax>
-      <ymax>1604489.25222373986616731</ymax>
+      <xmin>-9722160.70090759545564651</xmin>
+      <ymin>1561478.704931236570701</ymin>
+      <xmax>-9700441.40118362382054329</xmax>
+      <ymax>1592618.50821605999954045</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -151,7 +148,6 @@
       <item>ama_15min20150319140752539</item>
       <item>ama_1deg20150319140752664</item>
       <item>ama_30min20150319140752758</item>
-      <item>OpenLayers_plugin_layer20150408142517366</item>
       <item>OpenLayers_plugin_layer20150408142933137</item>
     </custom-order>
   </layer-tree-canvas>
@@ -267,11 +263,6 @@
         <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150408142933137" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Satellite" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150408142517366" visible="0"/>
-      </filegroup>
-    </legendlayer>
   </legend>
   <Composer title="Composer 1" visible="0">
     <Composition gridVisible="0" printResolution="600" paperWidth="431.8" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="10" numPages="1" paperHeight="279.4" smartGuides="1" printAsRaster="0" generateWorldFile="0">
@@ -369,35 +360,10 @@
       </ComposerMap>
     </Composition>
   </Composer>
-  <projectlayers layercount="23">
-    <maplayer minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
-      <id>OpenLayers_plugin_layer20150408142517366</id>
-      <datasource></datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Google Satellite</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="ol_layer_type" value="Google Satellite"/>
-      </customproperties>
-    </maplayer>
+  <projectlayers layercount="22">
     <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
       <id>OpenLayers_plugin_layer20150408142915800</id>
-      <datasource></datasource>
+      <datasource>.</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -422,7 +388,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
       <id>OpenLayers_plugin_layer20150408142933137</id>
-      <datasource></datasource>
+      <datasource>.</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2073,7 +2039,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">postgres</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "aip_lastchanges_description", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -4174,7 +4140,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">postgres</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "navaid_name", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -4989,7 +4955,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">postgres</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "route_name", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -6803,7 +6769,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">postgres</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "zprd_name", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
