@@ -39,15 +39,15 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="atc_surveillance_minima20150319140752867" name="atc_surveillance_minima">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Rutas">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Rutas">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rnav_routes20150319140656035" name="rnav_routes">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="rnav_routes20150319140656035" name="rnav_routes">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="upper_ats_routes20150319140656269" name="upper_ats_routes">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="upper_ats_routes20150319140656269" name="upper_ats_routes">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lower_ats_routes20150319140656518" name="lower_ats_routes">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="lower_ats_routes20150319140656518" name="lower_ats_routes">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -101,10 +101,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-10167250.16102524846792221</xmin>
-      <ymin>1453358.9459710840601474</ymin>
-      <xmax>-9605235.86441954225301743</xmax>
-      <ymax>1910558.94643738609738648</ymax>
+      <xmin>-10009876.97543319500982761</xmin>
+      <ymin>1550572.19635335844941437</ymin>
+      <xmax>-9939625.18835748173296452</xmax>
+      <ymax>1607722.19641164620406926</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -125,8 +125,8 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="AREA_CTA_EL_SALVADOR20150514154804463"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lower_ats_routes20150319140656518"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="point20150519101209947"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fixes_required20150511165700007"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="New_scratch_layer20150519102024944"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fixes_required20150511165700007"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="atc_surveillance_minima20150319140752867"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="navaids20150319140751199"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ctr20150319140751901"/>
@@ -246,20 +246,20 @@
         <legendlayerfile isInOverview="0" layerid="atc_surveillance_minima20150319140752867" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="true" checked="Qt::Unchecked" name="Rutas">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rnav_routes" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::Checked" name="Rutas">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rnav_routes" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="rnav_routes20150319140656035" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="rnav_routes20150319140656035" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="upper_ats_routes" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="upper_ats_routes" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="upper_ats_routes20150319140656269" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="upper_ats_routes20150319140656269" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lower_ats_routes" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lower_ats_routes" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="lower_ats_routes20150319140656518" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="lower_ats_routes20150319140656518" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -1085,7 +1085,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
       <id>OpenLayers_plugin_layer20150519101959481</id>
-      <datasource></datasource>
+      <datasource>.</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1190,10 +1190,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>

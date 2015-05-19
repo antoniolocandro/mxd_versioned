@@ -6,16 +6,16 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="020150513155805864" name="0">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="volcanoesofficial20150319140750343" name="volcanoesofficial">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="volcanoesofficial20150319140750343" name="volcanoesofficial">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="runway20150319140750997" name="runway">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="runway20150319140750997" name="runway">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="obstacle20150319140751075" name="obstacle">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="obstacle20150319140751075" name="obstacle">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="fixes_required20150511165700007" name="fixes_required">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fixes_required20150511165700007" name="fixes_required">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="AREA_CTA_NICARAGUA20150514154829370" name="AREA_CTA_NICARAGUA">
@@ -24,13 +24,13 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="AREA_CTA_EL_SALVADOR20150514154804463" name="AREA_CTA_EL_SALVADOR">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="navaids20150319140751199" name="navaids">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="navaids20150319140751199" name="navaids">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="route_lines20150511165638945" name="route_lines">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="route_lines20150511165638945" name="route_lines">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="holding_pattern20150319140751558" name="holding_pattern">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="holding_pattern20150319140751558" name="holding_pattern">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="designated_points20150319140751760" name="designated_points">
@@ -39,40 +39,40 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="atc_surveillance_minima20150319140752867" name="atc_surveillance_minima">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="Rutas">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Rutas">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="rnav_routes20150319140656035" name="rnav_routes">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rnav_routes20150319140656035" name="rnav_routes">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="upper_ats_routes20150319140656269" name="upper_ats_routes">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="upper_ats_routes20150319140656269" name="upper_ats_routes">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="lower_ats_routes20150319140656518" name="lower_ats_routes">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lower_ats_routes20150319140656518" name="lower_ats_routes">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="airspaces">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="airspaces">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="fir_area20150319140751636" name="fir_area">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="fir_area20150319140751636" name="fir_area">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="zprd20150319140655381" name="zprd">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="zprd20150319140655381" name="zprd">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="tma20150319140750685" name="tma">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="tma20150319140750685" name="tma">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="ctr20150319140751901" name="ctr">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ctr20150319140751901" name="ctr">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="atz20150319140752072" name="atz">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="atz20150319140752072" name="atz">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="airport_heliport20150319140752181" name="airport_heliport">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="airport_heliport_national20150319140752368" name="airport_heliport_national">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="airport_heliport_national20150319140752368" name="airport_heliport_national">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-group expanded="0" checked="Qt::Unchecked" name="AMA">
@@ -101,10 +101,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-10108269.14876378141343594</xmin>
-      <ymin>1545394.3934035690035671</ymin>
-      <xmax>-9967765.57461235485970974</xmax>
-      <ymax>1659694.39352014451287687</ymax>
+      <xmin>-10167250.16102524846792221</xmin>
+      <ymin>1453358.9459710840601474</ymin>
+      <xmax>-9605235.86441954225301743</xmax>
+      <ymax>1910558.94643738609738648</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -191,24 +191,24 @@
         <legendlayerfile isInOverview="0" layerid="020150513155805864" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="volcanoesofficial" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="volcanoesofficial" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="volcanoesofficial20150319140750343" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="volcanoesofficial20150319140750343" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="runway" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="runway" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="runway20150319140750997" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="runway20150319140750997" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="obstacle" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="obstacle" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="obstacle20150319140751075" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="obstacle20150319140751075" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="fixes_required" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fixes_required" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="fixes_required20150511165700007" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="fixes_required20150511165700007" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="AREA_CTA_NICARAGUA" showFeatureCount="0">
@@ -221,19 +221,19 @@
         <legendlayerfile isInOverview="0" layerid="AREA_CTA_EL_SALVADOR20150514154804463" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="navaids" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="navaids" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="navaids20150319140751199" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="navaids20150319140751199" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="route_lines" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="route_lines" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="route_lines20150511165638945" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="route_lines20150511165638945" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="holding_pattern" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="holding_pattern" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="holding_pattern20150319140751558" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="holding_pattern20150319140751558" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="designated_points" showFeatureCount="0">
@@ -246,47 +246,47 @@
         <legendlayerfile isInOverview="0" layerid="atc_surveillance_minima20150319140752867" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="true" checked="Qt::Checked" name="Rutas">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rnav_routes" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::Unchecked" name="Rutas">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rnav_routes" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="rnav_routes20150319140656035" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="rnav_routes20150319140656035" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="upper_ats_routes" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="upper_ats_routes" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="upper_ats_routes20150319140656269" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="upper_ats_routes20150319140656269" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lower_ats_routes" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lower_ats_routes" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="lower_ats_routes20150319140656518" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="lower_ats_routes20150319140656518" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Checked" name="airspaces">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="fir_area" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::Unchecked" name="airspaces">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fir_area" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="fir_area20150319140751636" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="fir_area20150319140751636" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="zprd" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="zprd" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="zprd20150319140655381" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="zprd20150319140655381" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="tma" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="tma" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="tma20150319140750685" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tma20150319140750685" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ctr" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ctr" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="ctr20150319140751901" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="ctr20150319140751901" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="atz" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="atz" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="atz20150319140752072" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="atz20150319140752072" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -295,9 +295,9 @@
         <legendlayerfile isInOverview="0" layerid="airport_heliport20150319140752181" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="airport_heliport_national" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="airport_heliport_national" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="airport_heliport_national20150319140752368" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="airport_heliport_national20150319140752368" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendgroup open="false" checked="Qt::Unchecked" name="AMA">
@@ -3590,9 +3590,9 @@
       <renderer-v2 attr="point_type" symbollevels="0" type="categorizedSymbol">
         <categories>
           <category render="true" symbol="0" value="ICAO" label="ICAO"/>
-          <category render="false" symbol="1" value="Coordinates" label="Coordinates"/>
-          <category render="false" symbol="2" value="Procedures" label="Procedures"/>
-          <category render="false" symbol="3" value="" label=""/>
+          <category render="true" symbol="1" value="Coordinates" label="Coordinates"/>
+          <category render="true" symbol="2" value="Procedures" label="Procedures"/>
+          <category render="true" symbol="3" value="" label=""/>
         </categories>
         <symbols>
           <symbol alpha="1" type="marker" name="0">
