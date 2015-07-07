@@ -93,7 +93,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20150520112513389" name="OCM Landscape">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150520112513389" name="OCM Landscape">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150511142133424" name="Google Physical">
@@ -110,10 +110,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-9981300.14294415898621082</xmin>
-      <ymin>1745561.2844039760529995</ymin>
-      <xmax>-9148920.97542846389114857</xmax>
-      <ymax>2064119.61806225264444947</ymax>
+      <xmin>-9799023.73693167418241501</xmin>
+      <ymin>1555050.68243846530094743</ymin>
+      <xmax>-9674795.25490407273173332</xmax>
+      <ymax>1602593.94129454949870706</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -350,9 +350,9 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OCM Landscape" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OCM Landscape" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150520112513389" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150520112513389" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Physical" showFeatureCount="0">
@@ -1570,7 +1570,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">postgres</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "name", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -4311,11 +4311,11 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>designated_points_belize20150521150404756</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' table="(SELECT DISTINCT (d.designator),d.gid,d.geom,d.geo_lat,d.geo_long,d.point_type&#xd;
-FROM gisdb.gis20150820.designated_points d&#xd;
-JOIN gisdb.gis20150820.lower_ats_routes l ON d.designator = l.start_pnt OR d.designator = l.end_pnt&#xd;
-where l.route_isinbelize = 't'&#xd;
-ORDER BY d.designator 
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' table="(SELECT DISTINCT (d.designator),d.gid,d.geom,d.geo_lat,d.geo_long,d.point_type&#xd;&#xd;
+FROM gisdb.gis20150820.designated_points d&#xd;&#xd;
+JOIN gisdb.gis20150820.lower_ats_routes l ON d.designator = l.start_pnt OR d.designator = l.end_pnt&#xd;&#xd;
+where l.route_isinbelize = 't'&#xd;&#xd;
+ORDER BY d.designator &#xd;
 )" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
@@ -7708,6 +7708,9 @@ ORDER BY d.designator
         <edittype widgetv2type="TextEdit" name="geo_dist_updatetype">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="aerodrome">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 symbollevels="0" type="singleSymbol">
         <symbols>
@@ -7919,10 +7922,10 @@ ORDER BY d.designator
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -7995,6 +7998,9 @@ ORDER BY d.designator
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="geo_dist_updatetype">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aerodrome">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -9730,49 +9736,49 @@ ORDER BY d.designator
       <IntervalY type="double">0.25</IntervalY>
       <AnnotationFont type="QString">MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0</AnnotationFont>
       <AnnotationPrecision type="int">3</AnnotationPrecision>
-      <MarkerSymbol type="QString">&lt;symbol alpha="1" type="marker" name="marker symbol">
- &lt;layer pass="0" class="SimpleMarker" locked="0">
-  &lt;prop k="angle" v="0"/>
-  &lt;prop k="color" v="255,0,0,255"/>
-  &lt;prop k="horizontal_anchor_point" v="1"/>
-  &lt;prop k="name" v="cross"/>
-  &lt;prop k="offset" v="0,0"/>
-  &lt;prop k="offset_map_unit_scale" v="0,0"/>
-  &lt;prop k="offset_unit" v="MM"/>
-  &lt;prop k="outline_color" v="0,0,0,255"/>
-  &lt;prop k="outline_style" v="solid"/>
-  &lt;prop k="outline_width" v="0"/>
-  &lt;prop k="outline_width_map_unit_scale" v="0,0"/>
-  &lt;prop k="outline_width_unit" v="MM"/>
-  &lt;prop k="scale_method" v="area"/>
-  &lt;prop k="size" v="3"/>
-  &lt;prop k="size_map_unit_scale" v="0,0"/>
-  &lt;prop k="size_unit" v="MM"/>
-  &lt;prop k="vertical_anchor_point" v="1"/>
- &lt;/layer>
-&lt;/symbol>
+      <MarkerSymbol type="QString">&lt;symbol alpha="1" type="marker" name="marker symbol">&#xd;
+ &lt;layer pass="0" class="SimpleMarker" locked="0">&#xd;
+  &lt;prop k="angle" v="0"/>&#xd;
+  &lt;prop k="color" v="255,0,0,255"/>&#xd;
+  &lt;prop k="horizontal_anchor_point" v="1"/>&#xd;
+  &lt;prop k="name" v="cross"/>&#xd;
+  &lt;prop k="offset" v="0,0"/>&#xd;
+  &lt;prop k="offset_map_unit_scale" v="0,0"/>&#xd;
+  &lt;prop k="offset_unit" v="MM"/>&#xd;
+  &lt;prop k="outline_color" v="0,0,0,255"/>&#xd;
+  &lt;prop k="outline_style" v="solid"/>&#xd;
+  &lt;prop k="outline_width" v="0"/>&#xd;
+  &lt;prop k="outline_width_map_unit_scale" v="0,0"/>&#xd;
+  &lt;prop k="outline_width_unit" v="MM"/>&#xd;
+  &lt;prop k="scale_method" v="area"/>&#xd;
+  &lt;prop k="size" v="3"/>&#xd;
+  &lt;prop k="size_map_unit_scale" v="0,0"/>&#xd;
+  &lt;prop k="size_unit" v="MM"/>&#xd;
+  &lt;prop k="vertical_anchor_point" v="1"/>&#xd;
+ &lt;/layer>&#xd;
+&lt;/symbol>&#xd;
 </MarkerSymbol>
       <Enabled type="bool">false</Enabled>
       <AnnotationDirection type="int">0</AnnotationDirection>
-      <LineSymbol type="QString">&lt;symbol alpha="1" type="line" name="line symbol">
- &lt;layer pass="0" class="SimpleLine" locked="0">
-  &lt;prop k="capstyle" v="square"/>
-  &lt;prop k="customdash" v="5;2"/>
-  &lt;prop k="customdash_map_unit_scale" v="0,0"/>
-  &lt;prop k="customdash_unit" v="MM"/>
-  &lt;prop k="draw_inside_polygon" v="0"/>
-  &lt;prop k="joinstyle" v="bevel"/>
-  &lt;prop k="line_color" v="0,0,0,255"/>
-  &lt;prop k="line_style" v="solid"/>
-  &lt;prop k="line_width" v="0.26"/>
-  &lt;prop k="line_width_unit" v="MM"/>
-  &lt;prop k="offset" v="0"/>
-  &lt;prop k="offset_map_unit_scale" v="0,0"/>
-  &lt;prop k="offset_unit" v="MM"/>
-  &lt;prop k="use_custom_dash" v="0"/>
-  &lt;prop k="width_map_unit_scale" v="0,0"/>
- &lt;/layer>
-&lt;/symbol>
+      <LineSymbol type="QString">&lt;symbol alpha="1" type="line" name="line symbol">&#xd;
+ &lt;layer pass="0" class="SimpleLine" locked="0">&#xd;
+  &lt;prop k="capstyle" v="square"/>&#xd;
+  &lt;prop k="customdash" v="5;2"/>&#xd;
+  &lt;prop k="customdash_map_unit_scale" v="0,0"/>&#xd;
+  &lt;prop k="customdash_unit" v="MM"/>&#xd;
+  &lt;prop k="draw_inside_polygon" v="0"/>&#xd;
+  &lt;prop k="joinstyle" v="bevel"/>&#xd;
+  &lt;prop k="line_color" v="0,0,0,255"/>&#xd;
+  &lt;prop k="line_style" v="solid"/>&#xd;
+  &lt;prop k="line_width" v="0.26"/>&#xd;
+  &lt;prop k="line_width_unit" v="MM"/>&#xd;
+  &lt;prop k="offset" v="0"/>&#xd;
+  &lt;prop k="offset_map_unit_scale" v="0,0"/>&#xd;
+  &lt;prop k="offset_unit" v="MM"/>&#xd;
+  &lt;prop k="use_custom_dash" v="0"/>&#xd;
+  &lt;prop k="width_map_unit_scale" v="0,0"/>&#xd;
+ &lt;/layer>&#xd;
+&lt;/symbol>&#xd;
 </LineSymbol>
       <MapUnits type="int">2</MapUnits>
       <Style type="int">0</Style>

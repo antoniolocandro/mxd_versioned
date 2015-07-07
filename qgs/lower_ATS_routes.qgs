@@ -27,7 +27,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="route_lines20150511165638945" name="route_lines">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="holding_pattern20150319140751558" name="holding_pattern">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="holding_pattern20150319140751558" name="holding_pattern">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="MARITIME20150617104542007" name="MARITIME">
@@ -36,7 +36,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="designated_points20150319140751760" name="designated_points">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="atc_surveillance_minima20150319140752867" name="atc_surveillance_minima">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="atc_surveillance_minima20150319140752867" name="atc_surveillance_minima">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Rutas">
@@ -93,7 +93,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20150520112513389" name="OCM Landscape">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150520112513389" name="OCM Landscape">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150511142133424" name="Google Physical">
@@ -110,10 +110,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-9953657.79148351959884167</xmin>
-      <ymin>1936936.77579159615561366</ymin>
-      <xmax>-9705200.827428312972188</xmax>
-      <ymax>2032023.29350376455113292</ymax>
+      <xmin>-9883448.56038209609687328</xmin>
+      <ymin>1952929.31718421983532608</ymin>
+      <xmax>-9759220.0783544909209013</xmax>
+      <ymax>2000472.5760403040330857</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -154,6 +154,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="airport_heliport_national20150319140752368"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="atc_surveillance_minima20150319140752867"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="New_scratch_layer20150519104555940"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="MHLM20150702091433470"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="volcanoesofficial20150319140750343"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="020150513155805864"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150511142133424"/>
@@ -249,9 +250,9 @@
         <legendlayerfile isInOverview="0" layerid="route_lines20150511165638945" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="holding_pattern" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="holding_pattern" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="holding_pattern20150319140751558" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="holding_pattern20150319140751558" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="MARITIME" showFeatureCount="0">
@@ -264,9 +265,9 @@
         <legendlayerfile isInOverview="0" layerid="designated_points20150319140751760" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="atc_surveillance_minima" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="atc_surveillance_minima" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="atc_surveillance_minima20150319140752867" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="atc_surveillance_minima20150319140752867" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Rutas">
@@ -350,9 +351,9 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OCM Landscape" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OCM Landscape" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150520112513389" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150520112513389" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Physical" showFeatureCount="0">
@@ -4311,11 +4312,11 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>designated_points_belize20150521150404756</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' table="(SELECT DISTINCT (d.designator),d.gid,d.geom,d.geo_lat,d.geo_long,d.point_type&#xd;
-FROM gisdb.gis20150820.designated_points d&#xd;
-JOIN gisdb.gis20150820.lower_ats_routes l ON d.designator = l.start_pnt OR d.designator = l.end_pnt&#xd;
-where l.route_isinbelize = 't'&#xd;
-ORDER BY d.designator 
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' table="(SELECT DISTINCT (d.designator),d.gid,d.geom,d.geo_lat,d.geo_long,d.point_type&#xd;&#xd;
+FROM gisdb.gis20150820.designated_points d&#xd;&#xd;
+JOIN gisdb.gis20150820.lower_ats_routes l ON d.designator = l.start_pnt OR d.designator = l.end_pnt&#xd;&#xd;
+where l.route_isinbelize = 't'&#xd;&#xd;
+ORDER BY d.designator &#xd;
 )" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
@@ -7708,6 +7709,9 @@ ORDER BY d.designator
         <edittype widgetv2type="TextEdit" name="geo_dist_updatetype">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="aerodrome">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 symbollevels="0" type="singleSymbol">
         <symbols>
@@ -7995,6 +7999,9 @@ ORDER BY d.designator
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="geo_dist_updatetype">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aerodrome">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -9579,11 +9586,11 @@ ORDER BY d.designator
         <value>rnav_routes20150319140656035</value>
         <value>route_lines20150511165638945</value>
         <value>runway20150319140750997</value>
+        <value>star_leg20150617170827142</value>
         <value>tma20150319140750685</value>
         <value>upper_ats_routes20150319140656269</value>
         <value>volcanoesofficial20150319140750343</value>
         <value>zprd20150319140655381</value>
-        <value>star_leg20150617170827142</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
@@ -9645,11 +9652,11 @@ ORDER BY d.designator
         <value>0</value>
         <value>2</value>
         <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
         <value>2</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
         <value>to_vertex_and_segment</value>
@@ -9677,11 +9684,11 @@ ORDER BY d.designator
         <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
+        <value>to_vertex</value>
+        <value>to_vertex</value>
+        <value>to_vertex</value>
+        <value>to_vertex</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">to vertex</DefaultSnapType>
       <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
@@ -9730,49 +9737,49 @@ ORDER BY d.designator
       <IntervalY type="double">0.25</IntervalY>
       <AnnotationFont type="QString">MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0</AnnotationFont>
       <AnnotationPrecision type="int">3</AnnotationPrecision>
-      <MarkerSymbol type="QString">&lt;symbol alpha="1" type="marker" name="marker symbol">
- &lt;layer pass="0" class="SimpleMarker" locked="0">
-  &lt;prop k="angle" v="0"/>
-  &lt;prop k="color" v="255,0,0,255"/>
-  &lt;prop k="horizontal_anchor_point" v="1"/>
-  &lt;prop k="name" v="cross"/>
-  &lt;prop k="offset" v="0,0"/>
-  &lt;prop k="offset_map_unit_scale" v="0,0"/>
-  &lt;prop k="offset_unit" v="MM"/>
-  &lt;prop k="outline_color" v="0,0,0,255"/>
-  &lt;prop k="outline_style" v="solid"/>
-  &lt;prop k="outline_width" v="0"/>
-  &lt;prop k="outline_width_map_unit_scale" v="0,0"/>
-  &lt;prop k="outline_width_unit" v="MM"/>
-  &lt;prop k="scale_method" v="area"/>
-  &lt;prop k="size" v="3"/>
-  &lt;prop k="size_map_unit_scale" v="0,0"/>
-  &lt;prop k="size_unit" v="MM"/>
-  &lt;prop k="vertical_anchor_point" v="1"/>
- &lt;/layer>
-&lt;/symbol>
+      <MarkerSymbol type="QString">&lt;symbol alpha="1" type="marker" name="marker symbol">&#xd;
+ &lt;layer pass="0" class="SimpleMarker" locked="0">&#xd;
+  &lt;prop k="angle" v="0"/>&#xd;
+  &lt;prop k="color" v="255,0,0,255"/>&#xd;
+  &lt;prop k="horizontal_anchor_point" v="1"/>&#xd;
+  &lt;prop k="name" v="cross"/>&#xd;
+  &lt;prop k="offset" v="0,0"/>&#xd;
+  &lt;prop k="offset_map_unit_scale" v="0,0"/>&#xd;
+  &lt;prop k="offset_unit" v="MM"/>&#xd;
+  &lt;prop k="outline_color" v="0,0,0,255"/>&#xd;
+  &lt;prop k="outline_style" v="solid"/>&#xd;
+  &lt;prop k="outline_width" v="0"/>&#xd;
+  &lt;prop k="outline_width_map_unit_scale" v="0,0"/>&#xd;
+  &lt;prop k="outline_width_unit" v="MM"/>&#xd;
+  &lt;prop k="scale_method" v="area"/>&#xd;
+  &lt;prop k="size" v="3"/>&#xd;
+  &lt;prop k="size_map_unit_scale" v="0,0"/>&#xd;
+  &lt;prop k="size_unit" v="MM"/>&#xd;
+  &lt;prop k="vertical_anchor_point" v="1"/>&#xd;
+ &lt;/layer>&#xd;
+&lt;/symbol>&#xd;
 </MarkerSymbol>
       <Enabled type="bool">false</Enabled>
       <AnnotationDirection type="int">0</AnnotationDirection>
-      <LineSymbol type="QString">&lt;symbol alpha="1" type="line" name="line symbol">
- &lt;layer pass="0" class="SimpleLine" locked="0">
-  &lt;prop k="capstyle" v="square"/>
-  &lt;prop k="customdash" v="5;2"/>
-  &lt;prop k="customdash_map_unit_scale" v="0,0"/>
-  &lt;prop k="customdash_unit" v="MM"/>
-  &lt;prop k="draw_inside_polygon" v="0"/>
-  &lt;prop k="joinstyle" v="bevel"/>
-  &lt;prop k="line_color" v="0,0,0,255"/>
-  &lt;prop k="line_style" v="solid"/>
-  &lt;prop k="line_width" v="0.26"/>
-  &lt;prop k="line_width_unit" v="MM"/>
-  &lt;prop k="offset" v="0"/>
-  &lt;prop k="offset_map_unit_scale" v="0,0"/>
-  &lt;prop k="offset_unit" v="MM"/>
-  &lt;prop k="use_custom_dash" v="0"/>
-  &lt;prop k="width_map_unit_scale" v="0,0"/>
- &lt;/layer>
-&lt;/symbol>
+      <LineSymbol type="QString">&lt;symbol alpha="1" type="line" name="line symbol">&#xd;
+ &lt;layer pass="0" class="SimpleLine" locked="0">&#xd;
+  &lt;prop k="capstyle" v="square"/>&#xd;
+  &lt;prop k="customdash" v="5;2"/>&#xd;
+  &lt;prop k="customdash_map_unit_scale" v="0,0"/>&#xd;
+  &lt;prop k="customdash_unit" v="MM"/>&#xd;
+  &lt;prop k="draw_inside_polygon" v="0"/>&#xd;
+  &lt;prop k="joinstyle" v="bevel"/>&#xd;
+  &lt;prop k="line_color" v="0,0,0,255"/>&#xd;
+  &lt;prop k="line_style" v="solid"/>&#xd;
+  &lt;prop k="line_width" v="0.26"/>&#xd;
+  &lt;prop k="line_width_unit" v="MM"/>&#xd;
+  &lt;prop k="offset" v="0"/>&#xd;
+  &lt;prop k="offset_map_unit_scale" v="0,0"/>&#xd;
+  &lt;prop k="offset_unit" v="MM"/>&#xd;
+  &lt;prop k="use_custom_dash" v="0"/>&#xd;
+  &lt;prop k="width_map_unit_scale" v="0,0"/>&#xd;
+ &lt;/layer>&#xd;
+&lt;/symbol>&#xd;
 </LineSymbol>
       <MapUnits type="int">2</MapUnits>
       <Style type="int">0</Style>
