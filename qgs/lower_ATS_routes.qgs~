@@ -27,7 +27,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="route_lines20150511165638945" name="route_lines">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="holding_pattern20150319140751558" name="holding_pattern">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="holding_pattern20150319140751558" name="holding_pattern">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="MARITIME20150617104542007" name="MARITIME">
@@ -36,7 +36,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="designated_points20150319140751760" name="designated_points">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="atc_surveillance_minima20150319140752867" name="atc_surveillance_minima">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="atc_surveillance_minima20150319140752867" name="atc_surveillance_minima">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Rutas">
@@ -110,10 +110,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-9799023.73693167418241501</xmin>
-      <ymin>1555050.68243846530094743</ymin>
-      <xmax>-9674795.25490407273173332</xmax>
-      <ymax>1602593.94129454949870706</ymax>
+      <xmin>-9883448.56038209609687328</xmin>
+      <ymin>1952929.31718421983532608</ymin>
+      <xmax>-9759220.0783544909209013</xmax>
+      <ymax>2000472.5760403040330857</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -154,6 +154,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="airport_heliport_national20150319140752368"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="atc_surveillance_minima20150319140752867"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="New_scratch_layer20150519104555940"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="MHLM20150702091433470"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="volcanoesofficial20150319140750343"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="020150513155805864"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150511142133424"/>
@@ -249,9 +250,9 @@
         <legendlayerfile isInOverview="0" layerid="route_lines20150511165638945" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="holding_pattern" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="holding_pattern" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="holding_pattern20150319140751558" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="holding_pattern20150319140751558" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="MARITIME" showFeatureCount="0">
@@ -264,9 +265,9 @@
         <legendlayerfile isInOverview="0" layerid="designated_points20150319140751760" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="atc_surveillance_minima" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="atc_surveillance_minima" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="atc_surveillance_minima20150319140752867" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="atc_surveillance_minima20150319140752867" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Rutas">
@@ -9585,11 +9586,11 @@ ORDER BY d.designator &#xd;
         <value>rnav_routes20150319140656035</value>
         <value>route_lines20150511165638945</value>
         <value>runway20150319140750997</value>
+        <value>star_leg20150617170827142</value>
         <value>tma20150319140750685</value>
         <value>upper_ats_routes20150319140656269</value>
         <value>volcanoesofficial20150319140750343</value>
         <value>zprd20150319140655381</value>
-        <value>star_leg20150617170827142</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
@@ -9651,11 +9652,11 @@ ORDER BY d.designator &#xd;
         <value>0</value>
         <value>2</value>
         <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
         <value>2</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
         <value>to_vertex_and_segment</value>
@@ -9683,11 +9684,11 @@ ORDER BY d.designator &#xd;
         <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
+        <value>to_vertex</value>
+        <value>to_vertex</value>
+        <value>to_vertex</value>
+        <value>to_vertex</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">to vertex</DefaultSnapType>
       <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
