@@ -110,10 +110,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-9831561.64830826595425606</xmin>
-      <ymin>1710790.39417300722561777</ymin>
-      <xmax>-9707333.16628066077828407</xmax>
-      <ymax>1758333.65302909142337739</ymax>
+      <xmin>-10009760.02156635746359825</xmin>
+      <ymin>1905257.72311936807818711</ymin>
+      <xmax>-9015932.16534563526511192</xmax>
+      <ymax>2285603.79396804142743349</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -6030,6 +6030,9 @@ ORDER BY d.designator &#xd;
         <edittype widgetv2type="TextEdit" name="geom_qa">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="mag_var_date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 symbollevels="0" type="singleSymbol">
         <symbols>
@@ -6354,6 +6357,9 @@ ORDER BY d.designator &#xd;
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="geom_qa">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="mag_var_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
