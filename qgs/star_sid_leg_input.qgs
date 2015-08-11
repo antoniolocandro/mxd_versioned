@@ -35,7 +35,7 @@
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="tma20150618094857298" name="tma">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="upper_ats_routes20150713111740305" name="upper_ats_routes">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="upper_ats_routes20150713111740305" name="upper_ats_routes">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lower_ats_routes20150618090919765" name="lower_ats_routes">
@@ -59,10 +59,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-9439969.43737768009305</xmin>
-      <ymin>1042816.66202228795737028</ymin>
-      <xmax>-9375559.16000776365399361</xmax>
-      <ymax>1166893.80962986033409834</ymax>
+      <xmin>-9432046.73735956475138664</xmin>
+      <ymin>1021810.20885354513302445</ymin>
+      <xmax>-9303226.18261973187327385</xmax>
+      <ymax>1269964.50406868988648057</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -183,9 +183,9 @@
           <legendlayerfile isInOverview="0" layerid="tma20150618094857298" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="upper_ats_routes" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="upper_ats_routes" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="upper_ats_routes20150713111740305" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="upper_ats_routes20150713111740305" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lower_ats_routes" showFeatureCount="0">
