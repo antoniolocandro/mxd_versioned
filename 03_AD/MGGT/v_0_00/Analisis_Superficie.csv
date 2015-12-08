@@ -1,0 +1,31 @@
+gid,ObstacleID,ObstacleType,DistanceTakeOffSurfaceOrigin_m,HeightAboveThreshold_RWY20,IsObstacle,Remarks
+1,MGGT0023,Tree,37,2.899800,obstacle,Trees provide no shielding
+2,MGGT0022,Tree,48,2.784800,obstacle,Trees provide no shielding
+3,MGGT0001,Tree,68,5.845800,obstacle,Trees provide no shielding
+4,MGGT0021,Tree,68,2.740800,obstacle,Trees provide no shielding
+5,MGGT0004,Tree,77,7.211800,obstacle,Trees provide no shielding
+6,MGGT0020,Tree,78,3.698800,obstacle,Trees provide no shielding
+7,MGGT0008,Tree,88,7.418800,obstacle,Trees provide no shielding
+8,MGGT0019,Tree,88,3.695800,obstacle,Trees provide no shielding
+9,MGGT0018,Tree,102,3.736800,obstacle,Trees provide no shielding
+10,MGGT0007,Tree,110,5.628800,obstacle,Trees provide no shielding
+11,MGGT0016,Tree,112,7.799800,obstacle,Trees provide no shielding
+12,MGGT0050,Billboard,116,6.202800,obstacle,6.2028
+13,MGGT0047,Billboard,120,5.652800,shielded,shielded by MGGT0050 by 0.55 m
+14,MGGT0017,Tree,121,2.332800,shielded,shielded by MGGT0050 by 3.87 m
+15,MGGT0048,Billboard,140,5.774800,shielded,shielded by MGGT0050 by 0.428 m
+16,MGGT0049,Billboard,150,6.813800,obstacle,6.8138
+17,MGGT0006,Tree,192,8.077800,obstacle,Trees provide no shielding
+18,MGGT0027,Antenna,285,12.452800,obstacle,12.4528
+19,MGGT0009,Tree,349,24.062799,obstacle,Trees provide no shielding
+20,MGGT0012,Tree,455,16.932800,obstacle,Trees provide no shielding
+21,MGGT0011,Tree,774,25.982800,obstacle,Trees provide no shielding
+22,MGGT0010,Tree,907,33.282799,obstacle,Trees provide no shielding
+23,MGGT0024,Building,979,21.542801,obstacle,21.5428
+24,MGGT0025,Building,1278,29.052799,obstacle,29.0528
+25,MGGT0040,Tower,1936,65.947800,obstacle,65.9478
+26,MGGT0044,Light,3180,39.332802,shielded,shielded by MGGT0040 by 26.615 m
+27,MGGT0037,Antenna,3192,49.442799,shielded,shielded by MGGT0040 by 16.505 m
+28,MGGT0038,Antenna,3223,52.362801,shielded,shielded by MGGT0040 by 13.585 m
+29,MGGT0039,Antenna,3236,44.892799,shielded,shielded by MGGT0040 by 21.055 m
+30,MGGT0036,Antenna,3355,49.132801,shielded,shielded by MGGT0040 by 16.815 m
