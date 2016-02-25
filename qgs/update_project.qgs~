@@ -27,7 +27,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="MGMM_RNAV20160209115507600" name="MGMM_RNAV">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="TMA_MGMM20160209115218977" name="TMA_MGMM">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="TMA_MGMM20160209115218977" name="TMA_MGMM">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="New_scratch_layer20160209093434616" name="New scratch layer">
@@ -68,10 +68,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-9933496.84904922172427177</xmin>
-      <ymin>1890131.65387193323113024</ymin>
-      <xmax>-9626018.46410148963332176</xmax>
-      <ymax>2051014.67896870919503272</ymax>
+      <xmin>-10112214.58121370896697044</xmin>
+      <ymin>1526423.92476780596189201</ymin>
+      <xmax>-9964443.61708002910017967</xmax>
+      <ymax>1809874.57808630052022636</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -225,9 +225,9 @@
         <legendlayerfile isInOverview="0" layerid="MGMM_RNAV20160209115507600" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="TMA_MGMM" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="TMA_MGMM" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="TMA_MGMM20160209115218977" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="TMA_MGMM20160209115218977" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="New scratch layer" showFeatureCount="0">
@@ -3066,7 +3066,7 @@ ORDER BY d.designator
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>designated_points20151201093028159</id>
       <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=POINT table="gis20160204"."designated_points" (geom) sql=</datasource>
       <title></title>
@@ -3318,7 +3318,7 @@ ORDER BY d.designator
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
         <property key="labeling/enabled" value="true"/>
-        <property key="labeling/fieldName" value="designator"/>
+        <property key="labeling/fieldName" value="designator+'\n' ||  &quot;geo_lat&quot;  +'\n' ||  &quot;geo_long&quot; "/>
         <property key="labeling/fontBold" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
         <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -3336,7 +3336,7 @@ ORDER BY d.designator
         <property key="labeling/fontWeight" value="50"/>
         <property key="labeling/fontWordSpacing" value="0"/>
         <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
         <property key="labeling/labelOffsetInMapUnits" value="true"/>
         <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
         <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
