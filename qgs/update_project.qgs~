@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.14.0-Essen">
+<qgis projectname="" version="2.14.1-Essen">
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
@@ -12,16 +12,16 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="approach_leg20151202113510212" name="approach_leg">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rwy_centrelinepoints20151217145625960" name="rwy_centrelinepoints">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="rwy_centrelinepoints20151217145625960" name="rwy_centrelinepoints">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="airport_heliport_national20151217144716662" name="airport_heliport_national">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="atz20151217162826268" name="atz">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="atz20151217162826268" name="atz">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="airport_heliport20160309102048847" name="airport_heliport">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="airport_heliport20160309102048847" name="airport_heliport">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="ctr20151217162534104" name="ctr">
@@ -48,7 +48,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20151210163352290" name="MapQuest-OSM">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20151201093423006" name="OpenStreetMap">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20151201093423006" name="OpenStreetMap">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20151012093316067" name="Google Satellite">
@@ -62,10 +62,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-10255293.94454052671790123</xmin>
-      <ymin>1742719.31803641421720386</ymin>
-      <xmax>-10110164.37210896238684654</xmax>
-      <ymax>2021103.31832048995420337</ymax>
+      <xmin>-9601906.22577120363712311</xmin>
+      <ymin>1227550.32406262750737369</ymin>
+      <xmax>-9501028.7316591888666153</xmax>
+      <ymax>1340523.80668954248540103</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -194,9 +194,9 @@
         <legendlayerfile isInOverview="0" layerid="approach_leg20151202113510212" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rwy_centrelinepoints" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rwy_centrelinepoints" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="rwy_centrelinepoints20151217145625960" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="rwy_centrelinepoints20151217145625960" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="airport_heliport_national" showFeatureCount="0">
@@ -204,14 +204,14 @@
         <legendlayerfile isInOverview="0" layerid="airport_heliport_national20151217144716662" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="atz" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="atz" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="atz20151217162826268" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="atz20151217162826268" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="airport_heliport" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="airport_heliport" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="airport_heliport20160309102048847" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="airport_heliport20160309102048847" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ctr" showFeatureCount="0">
@@ -254,9 +254,9 @@
         <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20151210163352290" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OpenStreetMap" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OpenStreetMap" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20151201093423006" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20151201093423006" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Satellite" showFeatureCount="0">
@@ -464,7 +464,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="50000" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>airport_heliport20160309102048847</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20160204"."airport_heliport" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20160721"."airport_heliport" (geom) sql=</datasource>
       <shortname>airport_heliport</shortname>
       <title></title>
       <abstract></abstract>
@@ -662,14 +662,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -679,9 +679,9 @@
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>airport_heliport_national20151217144716662</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20160204"."airport_heliport_national" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20160721"."airport_heliport_national" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -837,8 +837,10 @@
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value="designator"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontBold" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
         <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -856,7 +858,7 @@
         <property key="labeling/fontWeight" value="50"/>
         <property key="labeling/fontWordSpacing" value="0"/>
         <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/isExpression" value="false"/>
         <property key="labeling/labelOffsetInMapUnits" value="true"/>
         <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
         <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
@@ -872,10 +874,14 @@
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Normal"/>
         <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
         <property key="labeling/placement" value="0"/>
         <property key="labeling/placementFlags" value="0"/>
         <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
         <property key="labeling/preserveRotation" value="true"/>
         <property key="labeling/previewBkgrdColor" value="#ffffff"/>
         <property key="labeling/priority" value="5"/>
@@ -953,6 +959,9 @@
         <property key="labeling/wrapChar" value=""/>
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -979,6 +988,13 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -987,7 +1003,23 @@
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath>.</editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
@@ -998,7 +1030,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>approach_leg20151202113510212</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20160204"."approach_leg" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20160721"."approach_leg" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1457,7 +1489,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>atz20151217162826268</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="gis20160204"."atz" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="gis20160721"."atz" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1756,7 +1788,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>ctr20151217162534104</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="gis20160204"."ctr" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="gis20160721"."ctr" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -2052,7 +2084,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>designated_points20151201093028159</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20160204"."designated_points" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20160721"."designated_points" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -2465,7 +2497,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>lower_ats_routes20151201113536466</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20160204"."lower_ats_routes" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20160721"."lower_ats_routes" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -2828,7 +2860,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>navaids20151201113423126</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20160204"."navaids" (geom) sql="navaid_type" = 'DVOR/DME' OR "navaid_type" = 'VOR/DME'</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20160721"."navaids" (geom) sql="navaid_type" = 'DVOR/DME' OR "navaid_type" = 'VOR/DME'</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3014,8 +3046,10 @@
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="true"/>
         <property key="labeling/enabled" value="true"/>
         <property key="labeling/fieldName" value="designator+'\n' ||  &quot;geo_lat&quot;  +'\n' ||  &quot;geo_long&quot; "/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontBold" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
         <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -3049,10 +3083,14 @@
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Normal"/>
         <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
         <property key="labeling/placement" value="1"/>
         <property key="labeling/placementFlags" value="0"/>
         <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
         <property key="labeling/preserveRotation" value="true"/>
         <property key="labeling/previewBkgrdColor" value="#ffffff"/>
         <property key="labeling/priority" value="5"/>
@@ -3130,6 +3168,9 @@
         <property key="labeling/wrapChar" value=""/>
         <property key="labeling/xOffset" value="1"/>
         <property key="labeling/yOffset" value="-5"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -3156,6 +3197,13 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -3164,7 +3212,23 @@
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath>.</editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
@@ -3175,7 +3239,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>rnav_routes20151202115312194</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20160204"."rnav_routes" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20160721"."rnav_routes" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3538,7 +3602,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>rwy_centrelinepoints20151217145625960</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20160204"."rwy_centrelinepoints" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20160721"."rwy_centrelinepoints" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3689,7 +3753,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>star_leg20151201093003634</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20160204"."star_leg" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20160721"."star_leg" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4401,7 +4465,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>tma20151202114519986</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="gis20160204"."tma" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="gis20160721"."tma" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4697,7 +4761,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>upper_ats_routes20151201093402055</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20160204"."upper_ats_routes" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20160721"."upper_ats_routes" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -5060,7 +5124,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="50000" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>zprd20160204131918569</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="gis20160204"."zprd" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="gis20160721"."zprd" (geom) sql=</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -5351,7 +5415,7 @@
       <project type="bool">true</project>
       <refreshDelay type="int">15</refreshDelay>
       <refreshAuto type="bool">true</refreshAuto>
-      <refreshLastAsked type="QString">2016-03-09</refreshLastAsked>
+      <refreshLastAsked type="QString">2016-04-06</refreshLastAsked>
     </quickfinder_plugin>
     <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WMSContactOrganization type="QString"></WMSContactOrganization>
@@ -5398,6 +5462,7 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">1</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
+        <value>airport_heliport20160309102048847</value>
         <value>airport_heliport_national20151217144716662</value>
         <value>approach_leg20151202113510212</value>
         <value>atz20151217162826268</value>
@@ -5417,6 +5482,7 @@
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
+        <value>disabled</value>
         <value>enabled</value>
         <value>disabled</value>
         <value>enabled</value>
@@ -5430,6 +5496,7 @@
       <SnappingMode type="QString">advanced</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
       <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
         <value>2</value>
         <value>2</value>
         <value>2</value>
@@ -5458,10 +5525,12 @@
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">to vertex</DefaultSnapType>
       <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
