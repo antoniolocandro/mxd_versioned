@@ -1,0 +1,11 @@
+waypoint,fly_over
+OC310,yes
+OC309,yes
+OC308,yes
+OC307,RF
+OC305,yes
+OC304,yes
+OC303,RF
+OC302,yes
+OC301,yes
+RODEO,yes
