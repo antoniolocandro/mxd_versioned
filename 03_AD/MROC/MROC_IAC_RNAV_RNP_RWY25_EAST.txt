@@ -1,0 +1,10 @@
+waypoint,fly_over
+PARAI,yes
+OC312,yes
+OC313,RF
+OC314,yes
+OC306,yes
+OC307,RF
+OC308,yes
+OC309,yes
+OC310,yes
