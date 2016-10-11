@@ -38,7 +38,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="RNAV_RNP_RWY25_W20160905133451091" name="RNAV_RNP_RWY25_W">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="navaids20151201113423126" name="navaids">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="navaids20151201113423126" name="navaids">
       <customproperties>
         <property key="showFeatureCount" value="1"/>
       </customproperties>
@@ -52,7 +52,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="upper_ats_routes20151201093402055" name="upper_ats_routes">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="rnav_routes20151202115312194" name="rnav_routes">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rnav_routes20151202115312194" name="rnav_routes">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="star_leg20151201093003634" name="star_leg">
@@ -63,10 +63,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-90.48962557239987348</xmin>
-      <ymin>17.22070137976939463</ymin>
-      <xmax>-89.55501656456466719</xmax>
-      <ymax>18.2687329602175339</ymax>
+      <xmin>-91.75434821348267178</xmin>
+      <ymin>14.07884056688513041</ymin>
+      <xmax>-90.8197392056474655</xmax>
+      <ymax>15.12687214733326968</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -178,9 +178,9 @@
         <legendlayerfile isInOverview="0" layerid="RNAV_RNP_RWY25_W20160905133451091" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="navaids" showFeatureCount="1">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="navaids" showFeatureCount="1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="navaids20151201113423126" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="navaids20151201113423126" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="fir_area" showFeatureCount="0">
@@ -198,9 +198,9 @@
         <legendlayerfile isInOverview="0" layerid="upper_ats_routes20151201093402055" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rnav_routes" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rnav_routes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="rnav_routes20151202115312194" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="rnav_routes20151202115312194" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="star_leg" showFeatureCount="0">
