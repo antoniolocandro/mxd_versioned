@@ -15,7 +15,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rwy_centrelinepoints20151217145625960" name="rwy_centrelinepoints">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="airport_heliport_national20151217144716662" name="airport_heliport_national">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="airport_heliport_national20151217144716662" name="airport_heliport_national">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="atz20151217162826268" name="atz">
@@ -63,10 +63,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-91.75434821348267178</xmin>
-      <ymin>14.07884056688513041</ymin>
-      <xmax>-90.8197392056474655</xmax>
-      <ymax>15.12687214733326968</ymax>
+      <xmin>-88.45808238945329549</xmin>
+      <ymin>13.01626858621857252</ymin>
+      <xmax>-86.02506275139177205</xmax>
+      <ymax>15.66304662138246329</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -86,6 +86,7 @@
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_points20151201093028159"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ctr20151217162534104"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="airport_heliport_national20151217144716662"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tma20151202114519986"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="upper_ats_routes20151201093402055"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="rnav_routes20161010143853530"/>
@@ -143,9 +144,9 @@
         <legendlayerfile isInOverview="0" layerid="rwy_centrelinepoints20151217145625960" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="airport_heliport_national" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="airport_heliport_national" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="airport_heliport_national20151217144716662" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="airport_heliport_national20151217144716662" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="atz" showFeatureCount="0">
@@ -810,6 +811,12 @@ def my_form_open(dialog, layer, feature):
       </conditionalstyles>
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-91.90000152587890625</xmin>
+        <ymin>8.35746955871582031</ymin>
+        <xmax>-82.63135528564450283</xmax>
+        <ymax>18.44043350219730115</ymax>
+      </extent>
       <id>airport_heliport_national20151217144716662</id>
       <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20161110"."airport_heliport_national" (geom) sql=</datasource>
       <keywordList>
@@ -6203,7 +6210,7 @@ def my_form_open(dialog, layer, feature):
       <project type="bool">true</project>
       <refreshDelay type="int">15</refreshDelay>
       <refreshAuto type="bool">true</refreshAuto>
-      <refreshLastAsked type="QString">2016-10-10</refreshLastAsked>
+      <refreshLastAsked type="QString">2016-10-14</refreshLastAsked>
     </quickfinder_plugin>
     <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WMSContactOrganization type="QString"></WMSContactOrganization>
