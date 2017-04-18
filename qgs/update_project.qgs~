@@ -58,7 +58,7 @@
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="star_leg20151201093003634" name="star_leg">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OSM_Mapnik20170404191920105" name="OSM Mapnik">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OSM_Mapnik20170404191920105" name="OSM Mapnik">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -66,10 +66,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-86.78441375717538619</xmin>
-      <ymin>14.79260804708982846</ymin>
-      <xmax>-81.91837448105233932</xmax>
-      <ymax>20.08616411741760999</ymax>
+      <xmin>-90.77385001883723703</xmin>
+      <ymin>14.40776106385249378</ymin>
+      <xmax>-89.55734019980647531</xmax>
+      <ymax>15.73115008143443916</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -214,9 +214,9 @@
         <legendlayerfile isInOverview="0" layerid="star_leg20151201093003634" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OSM Mapnik" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OSM Mapnik" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20170404191920105" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20170404191920105" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -862,7 +862,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>-91.90000152587890625</xmin>
         <ymin>8.35746955871582031</ymin>
@@ -870,7 +870,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>18.44043350219730115</ymax>
       </extent>
       <id>airport_heliport_national20151217144716662</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20161110"."airport_heliport_national" (geom) sql=</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=Point table="gis20161110"."airport_heliport_national" (geom) sql="country" = 'HONDURAS'</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1014,6 +1014,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/bufferSizeInMapUnits" value="false"/>
         <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/bufferTransp" value="0"/>
         <property key="labeling/centroidInside" value="false"/>
         <property key="labeling/centroidWhole" value="false"/>
@@ -1023,6 +1024,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/drawLabels" value="true"/>
         <property key="labeling/enabled" value="true"/>
         <property key="labeling/fieldName" value="designator"/>
@@ -1039,6 +1041,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/fontSizeInMapUnits" value="false"/>
         <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/fontStrikeout" value="false"/>
         <property key="labeling/fontUnderline" value="false"/>
         <property key="labeling/fontWeight" value="50"/>
@@ -1048,6 +1051,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/labelOffsetInMapUnits" value="true"/>
         <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
         <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/labelPerPart" value="false"/>
         <property key="labeling/leftDirectionSymbol" value="&lt;"/>
         <property key="labeling/limitNumLabels" value="false"/>
@@ -1075,6 +1079,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/repeatDistance" value="0"/>
         <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
         <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/repeatDistanceUnit" value="1"/>
         <property key="labeling/reverseDirectionSymbol" value="false"/>
         <property key="labeling/rightDirectionSymbol" value=">"/>
@@ -1091,11 +1096,13 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shadowOffsetGlobal" value="true"/>
         <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
         <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shadowOffsetUnits" value="1"/>
         <property key="labeling/shadowRadius" value="1.5"/>
         <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
         <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
         <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shadowRadiusUnits" value="1"/>
         <property key="labeling/shadowScale" value="100"/>
         <property key="labeling/shadowTransparency" value="30"/>
@@ -1108,6 +1115,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shapeBorderWidth" value="0"/>
         <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
         <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shapeBorderWidthUnits" value="1"/>
         <property key="labeling/shapeDraw" value="false"/>
         <property key="labeling/shapeFillColorA" value="255"/>
@@ -1117,11 +1125,13 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shapeJoinStyle" value="64"/>
         <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
         <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shapeOffsetUnits" value="1"/>
         <property key="labeling/shapeOffsetX" value="0"/>
         <property key="labeling/shapeOffsetY" value="0"/>
         <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
         <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shapeRadiiUnits" value="1"/>
         <property key="labeling/shapeRadiiX" value="0"/>
         <property key="labeling/shapeRadiiY" value="0"/>
@@ -1130,6 +1140,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shapeSVGFile" value=""/>
         <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shapeSizeType" value="0"/>
         <property key="labeling/shapeSizeUnits" value="1"/>
         <property key="labeling/shapeSizeX" value="0"/>
@@ -1146,8 +1157,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -1174,6 +1185,12 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1182,7 +1199,23 @@ def my_form_open(dialog, layer, feature):
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath>.</editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
@@ -6347,8 +6380,8 @@ def my_form_open(dialog, layer, feature):
       <qftsfilepath type="QString">L:/mxd_versioned/qgs/searches_10dec2015.qfts</qftsfilepath>
       <project type="bool">true</project>
       <refreshDelay type="int">15</refreshDelay>
-      <refreshAuto type="bool">true</refreshAuto>
       <refreshLastAsked type="QString">2017-04-04</refreshLastAsked>
+      <refreshAuto type="bool">true</refreshAuto>
     </quickfinder_plugin>
     <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WMSContactOrganization type="QString"></WMSContactOrganization>

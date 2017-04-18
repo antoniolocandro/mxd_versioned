@@ -3,6 +3,9 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="fir_pts_cenamer20170417214508950" name="fir_pts_cenamer">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="zprd20160204131918569" name="zprd">
       <customproperties/>
     </layer-tree-layer>
@@ -46,19 +49,19 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="fir_area20160608145223883" name="fir_area">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lower_ats_routes20151201113536466" name="lower_ats_routes">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="lower_ats_routes20151201113536466" name="lower_ats_routes">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="upper_ats_routes20151201093402055" name="upper_ats_routes">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="upper_ats_routes20151201093402055" name="upper_ats_routes">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rnav_routes20151202115312194" name="rnav_routes">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="rnav_routes20151202115312194" name="rnav_routes">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="star_leg20151201093003634" name="star_leg">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OSM_Mapnik20170404191920105" name="OSM Mapnik">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OSM_Mapnik20170404191920105" name="OSM Mapnik">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -66,10 +69,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-90.77385001883723703</xmin>
-      <ymin>14.40776106385249378</ymin>
-      <xmax>-89.55734019980647531</xmax>
-      <ymax>15.73115008143443916</ymax>
+      <xmin>-90.26502578852587533</xmin>
+      <ymin>17.11958231172418365</ymin>
+      <xmax>-88.93892473775095198</xmax>
+      <ymax>18.56219094450745999</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -87,23 +90,24 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_points20151201093028159"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ctr20151217162534104"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="airport_heliport_national20151217144716662"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tma20151202114519986"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="upper_ats_routes20151201093402055"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="rnav_routes20161010143853530"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="atz20151217162826268"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="airport_heliport_national20151217144716662"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="upper_ats_routes20161010140905783"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fir_area20160608145223883"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_Mapnik20170404191920105"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="RNAV_RNP_RWY25_W20160905133451091"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tma20151202114519986"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fir_pts_cenamer20170417214508950"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="airport_heliport20160309102048847"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lower_ats_routes20151201113536466"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lower_ats_routes20161010135446214"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ctr20151217162534104"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="PIXEN20160617101120900"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="navaids20151201113423126"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="rnav_routes20151202115312194"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="PIXEN20160617101120900"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lower_ats_routes20161010135446214"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="RNAV_RNP_RWY25_W20160905133451091"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_Mapnik20170404191920105"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lower_ats_routes20151201113536466"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="rnav_routes20161010143853530"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_points20151201093028159"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="fir_area20160608145223883"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -126,9 +130,15 @@
       <item>fir_area20160608145223883</item>
       <item>RNAV_RNP_RWY25_W20160905133451091</item>
       <item>OSM_Mapnik20170404191920105</item>
+      <item>fir_pts_cenamer20170417214508950</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="fir_pts_cenamer" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="fir_pts_cenamer20170417214508950" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="zprd" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="zprd20160204131918569" visible="0"/>
@@ -194,19 +204,19 @@
         <legendlayerfile isInOverview="0" layerid="fir_area20160608145223883" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lower_ats_routes" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lower_ats_routes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="lower_ats_routes20151201113536466" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="lower_ats_routes20151201113536466" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="upper_ats_routes" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="upper_ats_routes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="upper_ats_routes20151201093402055" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="upper_ats_routes20151201093402055" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rnav_routes" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rnav_routes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="rnav_routes20151202115312194" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="rnav_routes20151202115312194" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="star_leg" showFeatureCount="0">
@@ -214,12 +224,82 @@
         <legendlayerfile isInOverview="0" layerid="star_leg20151201093003634" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OSM Mapnik" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OSM Mapnik" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20170404191920105" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20170404191920105" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>ATUTO&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="23" canvasPosX="353.49999999999272404" mapPosX="-90.40674353818681652" canvasPosY="423.5" mapPositionFixed="1" mapPosY="17.81804386048344568" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="52" offsetY="-60" frameWidth="54" frameBackgroundColor="#ffffff" frameColor="#000000">
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="255,0,0,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </AnnotationItem>
+  </TextAnnotationItem>
+  <TextAnnotationItem document="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MEXICO/BELIZE&lt;/p>&lt;/body>&lt;/html>">
+    <AnnotationItem frameHeight="25" canvasPosX="1286.49999999999272404" mapPosX="-88.76733567657075241" canvasPosY="308.5" mapPositionFixed="1" mapPosY="18.02011449723140757" frameColorAlpha="255" frameBackgroundColorAlpha="255" frameBorderWidth="1" visible="1" offsetX="-107" offsetY="-42" frameWidth="94" frameBackgroundColor="#ffffff" frameColor="#000000">
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="255,0,0,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </AnnotationItem>
+  </TextAnnotationItem>
   <Composer title="Belize VFR" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="279.4" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="215.9" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
@@ -1188,6 +1268,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
@@ -3009,7 +3090,112 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="50000" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-90.40723666666667668</xmin>
+        <ymin>17.81666666666666643</ymin>
+        <xmax>-88.76828888888888969</xmax>
+        <ymax>18.02209722222222155</ymax>
+      </extent>
+      <id>fir_pts_cenamer20170417214508950</id>
+      <datasource>memory?geometry=Point&amp;crs=EPSG:4326</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>fir_pts_cenamer</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">memory</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes/>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="167,197,96,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield></displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>-92.16057586669920454</xmin>
         <ymin>5.03388595581055043</ymin>
@@ -3017,7 +3203,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>20.37361145019529829</ymax>
       </extent>
       <id>lower_ats_routes20151201113536466</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20161110"."lower_ats_routes" (geom) sql="designator_number" = 'R644'</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20161110"."lower_ats_routes" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3350,8 +3536,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -3379,7 +3565,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
@@ -5672,7 +5858,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>-92.16057586669920454</xmin>
         <ymin>8.55291652679443004</ymin>
@@ -5680,7 +5866,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>20.37361145019529829</ymax>
       </extent>
       <id>upper_ats_routes20151201093402055</id>
-      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20161110"."upper_ats_routes" (geom) sql="designator_number" = 'UR644'</datasource>
+      <datasource>dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' password='alocandro34' sslmode=disable key='gid' srid=4326 type=MultiLineString table="gis20161110"."upper_ats_routes" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6013,8 +6199,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -6042,7 +6228,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
