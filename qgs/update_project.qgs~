@@ -41,13 +41,13 @@
     <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Unchecked" id="approach_leg20170717222043348" source="dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' sslmode=disable key='gid' srid=4326 type=MultiLineString table=&quot;gis20180426&quot;.&quot;approach_leg&quot; (geom) sql=" name="approach_leg">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="upper_ats_routes20171206220131145" source="dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' sslmode=disable key='gid' srid=4326 type=MultiLineString table=&quot;gis20180426&quot;.&quot;upper_ats_routes&quot; (geom) sql=&quot;route_isinbelize&quot;='t'" name="upper_ats_routes">
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Unchecked" id="upper_ats_routes20171206220131145" source="dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' sslmode=disable key='gid' srid=4326 type=MultiLineString table=&quot;gis20180426&quot;.&quot;upper_ats_routes&quot; (geom) sql=&quot;route_isinbelize&quot;='t'" name="upper_ats_routes">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="lower_ats_routes__copia20170914174422154" source="dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' sslmode=disable key='gid' srid=4326 type=MultiLineString table=&quot;gis20180426&quot;.&quot;lower_ats_routes&quot; (geom) sql=" name="lower_ats_routes">
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Unchecked" id="lower_ats_routes__copia20170914174422154" source="dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' sslmode=disable key='gid' srid=4326 type=MultiLineString table=&quot;gis20180426&quot;.&quot;lower_ats_routes&quot; (geom) sql=" name="lower_ats_routes">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Unchecked" id="rnav_routes20170801230230410" source="dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' sslmode=disable key='gid' srid=4326 type=MultiLineString table=&quot;gis20180426&quot;.&quot;rnav_routes&quot; (geom) sql=" name="rnav_routes">
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="rnav_routes20170801230230410" source="dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' sslmode=disable key='gid' srid=4326 type=MultiLineString table=&quot;gis20180426&quot;.&quot;rnav_routes&quot; (geom) sql=" name="rnav_routes">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Unchecked" id="airport_heliport_national20171205210353830" source="dbname='gisdb' host=172.16.11.39 port=5433 user='locandro' sslmode=disable key='gid' srid=4326 type=Point table=&quot;gis20180426&quot;.&quot;airport_heliport_national&quot; (geom) sql=" name="airport_heliport_national">
@@ -341,19 +341,19 @@
         <legendlayerfile isInOverview="0" layerid="approach_leg20170717222043348" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="upper_ats_routes" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="upper_ats_routes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="upper_ats_routes20171206220131145" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="upper_ats_routes20171206220131145" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lower_ats_routes" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lower_ats_routes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="lower_ats_routes__copia20170914174422154" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="lower_ats_routes__copia20170914174422154" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rnav_routes" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rnav_routes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="rnav_routes20170801230230410" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="rnav_routes20170801230230410" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="airport_heliport_national" showFeatureCount="0">
