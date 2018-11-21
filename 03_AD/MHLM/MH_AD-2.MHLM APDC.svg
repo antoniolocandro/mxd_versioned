@@ -82,8 +82,8 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="1.3485026"
-     inkscape:cx="501.57848"
-     inkscape:cy="223.1703"
+     inkscape:cx="330.64815"
+     inkscape:cy="775.55661"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -558,15 +558,15 @@
              style="font-size:9.83969498px;line-height:1.25">AD-2.MHLM APDC</tspan></text>
 <text
            transform="scale(1.0000259,-0.9999741)"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:0%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="text282"
-           x="526.10687"
+           x="529.07306"
            y="-744.42529"
            sodipodi:linespacing="0%"><tspan
              sodipodi:role="line"
-             id="tspan3801"
-             x="526.10687"
-             y="-744.42529">13 SEP 18</tspan></text>
+             id="tspan3804"
+             x="529.07306"
+             y="-744.42529">6 DEC 18</tspan></text>
 <text
            transform="matrix(1,0,0,-0.99994779,58.19972,25.19441)"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-size:10.00026106px;"
@@ -575,14 +575,16 @@
              sodipodi:role="line"
              id="tspan3803">AIM - COCESNA</tspan></text>
 <text
-           transform="scale(1.0000261,-0.99997389)"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-size:10.00000005px;"
+           transform="scale(1.0000261,-0.9999739)"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="text290"
-           x="514.87421"
+           x="522.58624"
            y="-25.788334"
            sodipodi:linespacing="0%"><tspan
              sodipodi:role="line"
-             id="tspan3805">AMDT 26/18</tspan></text>
+             id="tspan3800"
+             x="522.58624"
+             y="-25.788334">AMDT 0/18</tspan></text>
 <text
            transform="matrix(1,0,0,-0.99994823,503.75757,727.08206)"
            style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
